@@ -1,0 +1,5 @@
+PHP Fatal error:  Uncaught InvalidArgumentException: negative discount in /var/www/src/Billing/Discount.php:17
+Stack trace:
+#0 /var/www/src/Billing/Invoice.php(30): Discount->apply(-5)
+#1 /var/www/public/index.php(9): Invoice->total()
+#2 {main}

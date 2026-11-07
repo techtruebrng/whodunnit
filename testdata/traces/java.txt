@@ -1,0 +1,8 @@
+Exception in thread "main" java.lang.IllegalStateException: negative discount
+	at com.acme.billing.Discount.apply(Discount.java:17)
+	at com.acme.billing.Invoice$Line.total(Invoice.kt:42)
+	at com.acme.billing.Invoice.lambda$total$0(Invoice.java:30)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at com.acme.App.main(App.java:9)
+Caused by: java.lang.ArithmeticException: / by zero
+	... 3 more

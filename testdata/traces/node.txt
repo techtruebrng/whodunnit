@@ -1,0 +1,7 @@
+TypeError: Cannot read properties of undefined (reading 'amount')
+    at applyDiscount (/srv/app/src/billing/discount.js:12:28)
+    at Invoice.total (/srv/app/src/billing/invoice.js:31:12)
+    at async Promise.all (index 0)
+    at Object.<anonymous> (/srv/app/node_modules/express/lib/router/layer.js:95:5)
+    at node:internal/process/task_queues:95:5
+    at /srv/app/src/server.js:8:3

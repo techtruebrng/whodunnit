@@ -1,0 +1,4 @@
+/app/app/models/invoice.rb:42:in `total': negative discount (ArgumentError)
+	from /app/app/models/invoice.rb:10:in `block in subtotal'
+	from /usr/local/bundle/gems/activesupport-7.1.3/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+	from app/controllers/invoices_controller.rb:7:in 'InvoicesController#show'

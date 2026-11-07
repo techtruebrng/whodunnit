@@ -1,0 +1,3 @@
+System.InvalidOperationException: negative discount
+   at Acme.Billing.Discount.Apply(Decimal amount) in C:\build\src\Billing\Discount.cs:line 17
+   at Acme.Billing.Invoice.Total() in C:\build\src\Billing\Invoice.cs:line 30

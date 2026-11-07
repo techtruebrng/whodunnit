@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/runpy.py", line 198, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/app/billing/cli.py", line 14, in main
+    total = invoice.total()
+  File "/app/billing/invoice.py", line 9, in total
+    return apply_discount(subtotal, self.discount)
+  File "/app/.venv/lib/python3.12/site-packages/decimal_utils/core.py", line 3, in apply_discount
+    raise ValueError("negative discount")
+ValueError: negative discount

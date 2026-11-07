@@ -1,0 +1,3 @@
+applyDiscount@https://shop.example.com/static/js/main.3f2a1c.js:1:2048
+total@https://shop.example.com/static/js/main.3f2a1c.js:1:3301
+@https://shop.example.com/static/js/main.3f2a1c.js:2:17
